@@ -2,8 +2,7 @@ const { test, expect } = require('@playwright/test');
 const SHOP_URL = 'https://dev.chipy.com/shop';
 
 test.describe('Chipy Shop page', () => {
-
-
+// ---------------------------------------------------------------------------
   test.beforeEach(async ({ page }) => {
     // Navigate to the shop page.
     // `waitUntil: 'domcontentloaded'` resolves as soon as the HTML document
