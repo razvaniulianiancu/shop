@@ -23,7 +23,7 @@
 //   -> Claude porneste Chrome + ruleaza testul. Pasul cu Cloudflare (daca apare)
 //      trebuie facut de tine manual in fereastra — Claude nu poate trece de el.
 // =============================================================================
-const { test, expect } = require("../fixtures");
+const { test, expect } = require('./cdp-fixtures');
 
 test("Real Money filter - results count and card titles match", async ({
   page,

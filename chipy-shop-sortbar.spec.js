@@ -1,4 +1,4 @@
-const { test, expect } = require('../../_cdp');
+const { test, expect } = require('./cdp-fixtures');
 const SHOP_URL = 'https://dev.chipy.com/shop';
 
 // The shop sort bar (#sort-shop-wrap). Clicking #sort-txt toggles the popup
