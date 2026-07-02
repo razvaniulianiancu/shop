@@ -1,4 +1,4 @@
-const { test, expect } = require('../../_cdp');
+const { test, expect } = require('./cdp-fixtures');
 const SHOP_URL = 'https://dev.chipy.com/shop';
 
 test.describe('Chipy Shop - Shop Bonuses filter', () => {
@@ -113,3 +113,14 @@ test.describe('Chipy Shop - Shop Bonuses filter', () => {
 
 // office
 // npx playwright test --config ~/playwright.config.js shop/chipy-shop-filter-bonuses.spec.js --project=chromium --workers=1
+
+
+// new changes:
+// pass1
+// PS C:\Users\razva\playwright-project\tests\chipy\shop> & "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Temp\chrome-cdp" https://dev.chipy.com/shop
+
+// pass2
+// npx playwright test --workers=1
+
+// pass3
+// npx playwright show-report

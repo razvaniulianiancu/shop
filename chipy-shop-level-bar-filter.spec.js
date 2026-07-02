@@ -17,7 +17,7 @@
 // testul tests/chipy-shop-level-bar-filter.spec.js" — Claude starts Chrome + runs the
 // test; you still pass Cloudflare by hand if a challenge appears.
 // =============================================================================
-const { test, expect } = require("../fixtures");
+const { test, expect } = require('./cdp-fixtures');
 
 test("Level filter", async ({ page }) => {
   // The dev server builds the slider widget slowly (lazy init on scroll), so

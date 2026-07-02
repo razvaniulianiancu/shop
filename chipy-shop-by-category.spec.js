@@ -17,7 +17,7 @@
 // testul tests/chipy-shop-by-category.spec.js" — Claude starts Chrome + runs the
 // test; you still pass Cloudflare by hand if a challenge appears.
 // =============================================================================
-const { test, expect } = require("../fixtures");
+const { test, expect } = require('./cdp-fixtures');
 
 const SHOP_URL = "https://dev.chipy.com/shop";
 const SHOP_ORIGIN = "https://dev.chipy.com";

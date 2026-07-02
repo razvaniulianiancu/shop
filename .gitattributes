@@ -1,0 +1,10 @@
+# Normalize line endings across OSes: store as LF in the repo, check out LF.
+# Stops Windows<->Linux CRLF churn that makes every push look modified.
+* text=auto eol=lf
+
+# Binary assets — never touch.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
